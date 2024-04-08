@@ -6,6 +6,7 @@
   background-color: #457ee1aa;
   padding: 10px 20px;
   font-family: "Kalam", cursive;
+  height: 60px;
 }
 
 .logo {
@@ -17,6 +18,7 @@
 .nav-links {
   list-style: none;
   display: flex;
+  font-size: 20px;
 }
 
 .nav-links li {
@@ -43,5 +45,5 @@
 }
 img {
   width: 100px;
-  height: 80px;
+  height: 60px;
 }
