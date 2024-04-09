@@ -3,17 +3,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #457ee1aa;
+  /* background-color: #457ee1aa; */
   padding: 10px 20px;
   font-family: "Kalam", cursive;
   height: 60px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
-.logo {
+/* .logo {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */
 
 .nav-links {
   list-style: none;
@@ -23,16 +26,19 @@
 
 .nav-links li {
   margin-right: 7ch;
+
+  margin-top: 13px;
 }
 
 .nav-links li a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: color 0.3s ease;
+  margin-right: 20px;
 }
 
 .nav-links li a:hover {
-  color: #343131a3;
+  color: #cac3c3;
 }
 
 @media screen and (max-width: 768px) {
@@ -44,6 +50,26 @@
   /* Adjust styles for smaller screens if necessary */
 }
 img {
-  width: 100px;
-  height: 60px;
+  width: 170px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.btn {
+  background-color: #ffffffa7; /* Dark background color */
+  color: white; /* Text color */
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+  height: auto;
+  outline: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+.btn:hover {
+  background-color: #222; /* Darker background color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker box shadow on hover */
 }

@@ -1,0 +1,34 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.4), rgba(8, 0, 58, 0.4)),
+    url("../../assets/imagee.png");
+  background-size: contain;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-txt {
+  width: 700px;
+  text-align: start;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+.hero-txt h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.hero-txt h3 {
+  font-size: 30px;
+}
+.hero-txt p {
+  font-size: 15px;
+  font-weight: 550;
+  font-style: italic;
+}
+.hero-txt button {
+  margin-top: 20px;
+}

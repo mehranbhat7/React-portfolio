@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="container">
       <div className="navbar">
         <img src={logo} alt="" />
         <ul className="nav-links">
@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="#testimonial">Testimonial</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <button className="btn">Contact</button>
           </li>
         </ul>
       </div>
