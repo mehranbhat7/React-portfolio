@@ -73,3 +73,7 @@ img {
   background-color: #222; /* Darker background color on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker box shadow on hover */
 }
+.dark-nav {
+  background-color: rgba(9, 92, 226, 0.873);
+  transition: 0.6s ease-in-out;
+}
