@@ -1,0 +1,35 @@
+body {
+  background-color: #e1e8f7bc;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.single {
+  width: 258px;
+  height: 351px;
+  background: linear-gradient(to right, #0d7cc6cb, #5a1cd5c0);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.single img {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  border: 2px solid rgb(112, 230, 9);
+  margin-right: 20px;
+  margin-top: 70px;
+}
+.single h4 {
+  padding: 20px;
+  color: rgb(37, 37, 37);
+}
+.single p {
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+}
