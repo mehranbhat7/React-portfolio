@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="terms">
           <h3>Terms of Service</h3>
           <h3>Privacy Policy</h3>
-          <h4>📞 mehranbhat2001@gmail.com</h4>
+          <h3>📞 mehranbhat2001@gmail.com</h3>
         </div>
       </div>
     </>

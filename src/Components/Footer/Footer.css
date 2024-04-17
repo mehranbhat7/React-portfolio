@@ -1,6 +1,6 @@
 .footer {
-  margin: 10px;
-  padding: 30px;
+  margin: 0px 70px;
+  padding: 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.702);
   display: flex;
   align-items: center;
@@ -13,10 +13,10 @@
 }
 .links h3 {
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .terms h3 {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 10px;
 }
 .terms {
