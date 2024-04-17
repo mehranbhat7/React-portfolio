@@ -1,0 +1,24 @@
+.footer {
+  margin: 10px;
+  padding: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.702);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links img {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.links h3 {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.terms h3 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.terms {
+  margin-top: 30px;
+}
