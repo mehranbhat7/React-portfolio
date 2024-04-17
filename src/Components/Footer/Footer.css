@@ -14,10 +14,12 @@
 .links h3 {
   margin-left: 20px;
   font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .terms h3 {
   font-size: 12px;
   margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .terms {
   margin-top: 30px;
