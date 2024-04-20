@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #457ee1aa; */
+
   padding: 10px 20px;
   font-family: "Kalam", cursive;
   height: 60px;
@@ -11,12 +11,6 @@
   z-index: 10;
   width: 100%;
 }
-
-/* .logo {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-} */
 
 .nav-links {
   list-style: none;
@@ -41,14 +35,6 @@
   color: #cac3c3;
 }
 
-@media screen and (max-width: 768px) {
-  /* .nav-links {
-    display: none;
-  } */
-}
-@media screen and (max-width: 480px) {
-  /* Adjust styles for smaller screens if necessary */
-}
 img {
   width: 170px;
   height: 100px;
@@ -56,8 +42,8 @@ img {
   margin-left: 20px;
 }
 .btn {
-  background-color: #ffffffa7; /* Dark background color */
-  color: white; /* Text color */
+  background-color: #ffffffa7;
+  color: white;
   padding: 8px 20px;
   font-size: 20px;
   border-radius: 30px;
@@ -66,12 +52,12 @@ img {
   margin-right: 20px;
   height: auto;
   outline: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-  background-color: #222; /* Darker background color on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker box shadow on hover */
+  background-color: #222;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 .dark-nav {
   background-color: rgba(9, 92, 226, 0.873);
