@@ -29,7 +29,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="progress-wrapper">
-        <div className="progress-bar" style={{ width: `${100}%` }}>
+        <div className="progress-bar" style={{ width: `${75}%` }}>
           <span className="progress-label">React Js</span>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="progress-wrapper">
-        <div className="progress-bar" style={{ width: `${85}%` }}>
+        <div className="progress-bar" style={{ width: `${95}%` }}>
           <span className="progress-label">WordPress</span>
         </div>
       </div>
